@@ -1,0 +1,20 @@
+{
+  "basic": {
+    "plainText": "Hello from Node.js!",
+    "password": "test-password-123",
+    "encrypted": "oBLHYUSUCLmP8lMBaHVNgSuV1WVT:1M0pxcAGmuFg7A0lRFPUNA==:lmk+0QeCcyltLU6bplxLFQ=="
+  },
+  "diffieHellman": {
+    "alice": {
+      "privateKey": "014f36bec6b7d594946a7385ae3dc07ca6798ae3e19c0210aca8fa5c3d",
+      "publicKey": "ca9a1b31e0effa6477bad0bbb114b4cc1911e0b7f59e4baa26d1beebc30fb0ee38e8f80a9b59cda19ae996d6ed61430dbad886f5b955a09740e3667f663059d23c08c7db0e2d0889b1eb618cf05f38434476a8d2829d4a71568989338d1828b7db2a46f4f34d5bc5ac6e03a00f43cfb60aafc87cb5a76dd67c5c7653e6043b7ffe305d2ec5058e462413b763427b4123f3b80694d5459fe279c9c02b43e1e65967cb5cbc05451bd553cc3d6f510f0b03c8474248d42dd47b1f5ba09ab8f068c054f00729ee0062041e2d242902545956cc3504aa1cf841ae9fde61f36fdfd45bf3cb8acfdf827ebb0176a8645f96119a5b88a0dc339c82915aafb2ba6b290b17"
+    },
+    "bob": {
+      "privateKey": "f23ab51a9441bab7ca609eeed83d597a295710a1e41d131c0af7b6f9",
+      "publicKey": "9eaa7ce9dcfe412df34ea76fb369206c72792a6057fd01ccd8b663bf632f3d73d92fcf92a62266eb998c51c76fddd776f7630298aa875333bfa2bd8ceb469d71df1d3e0ab5b0c1a245f28cc7b41b3414c844cab95b9b2353a3fe36a18354b512fc0e2716ab8f1d8f31742c8b5b02991082668bf9d2e018067e26e39eb08e4d7e6bbadfcea4b92e0a1aaf35046a8750d8f747bd08258e7e85afb616f07b1a7dd70cd1e7aef6ae93116ef082985201aeef1ed9a2c4e4e419f78059942fea01827df02a36c362a3e72c7166c710818b104207b195b832eae89d44847fee6d64972aa2fbb8af31467f6ad00177f85218930f7cb8c1fa7a88c8a4e402046c22ed096a"
+    },
+    "sharedSecret": "df96e9b64c5d4d9dfc60c94cb953ad3a3b2f3192dae8fb7fda2fdf4e21199ad9",
+    "plainText": "DH encrypted message from Node.js",
+    "encrypted": "HN4P8HNTwU6/w0SXBERUJJIL29Msd3gxEMakEMTgFw0bjOA=:HlXjnacgv3MJefagFmwCcQ==:yRMtK4b5xMjeNla3Dnqp1A=="
+  }
+}

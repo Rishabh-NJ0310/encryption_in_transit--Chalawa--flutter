@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional custom lint rules can be added here
+linter:
+  rules:
+    # Enforce good practices
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_print: false # Allow print for examples and debugging
+    
+    # Security
+    avoid_web_libraries_in_flutter: true

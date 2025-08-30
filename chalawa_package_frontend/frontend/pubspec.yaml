@@ -1,0 +1,22 @@
+name: chalawa
+description: A Flutter package for applying encryption at transit state - compatible with Node.js TypeScript backend
+version: 0.0.1
+homepage: https://github.com/Rishabh-NJ0310/encryption_in_transit--Chalawa-
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  pointycastle: ^3.9.1
+  convert: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
