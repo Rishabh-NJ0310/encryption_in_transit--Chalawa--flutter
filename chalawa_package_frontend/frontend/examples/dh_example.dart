@@ -71,10 +71,10 @@ Future<void> demonstrateDHKeyExchange() async {
   
   const password = 'super-secret-password-2024';
   final enhancedClientKeyPair = generateDHKeyPair(
-    input: DHKeyExchangeInput(password: password),
+    input: const DHKeyExchangeInput(password: password),
   );
   final enhancedServerKeyPair = generateDHKeyPair(
-    input: DHKeyExchangeInput(password: password),
+    input: const DHKeyExchangeInput(password: password),
   );
 
   final enhancedClientSecret = computeSharedSecret(DHSharedSecretInput(
@@ -98,7 +98,7 @@ Future<void> demonstrateDHKeyExchange() async {
   const basicMessage = 'Hello from Flutter!';
   const basicPassword = 'flutter-password-123';
 
-  final basicEncrypted = encrypt(EncryptionInput(
+  final basicEncrypted = encrypt(const EncryptionInput(
     plainText: basicMessage,
     password: basicPassword,
   ));
